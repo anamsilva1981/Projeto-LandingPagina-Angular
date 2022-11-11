@@ -1,0 +1,13 @@
+.logo {
+  width: 80px;
+}
+
+.navbar{
+  justify-content: space-around;
+  color: rgb(161, 156, 156);
+}
+
+
+.nav-item:hover{
+  color: blue;
+}
