@@ -1,17 +1,17 @@
   <!-- DESKTOP -->
-  <mat-toolbar class="navbar">
-
-    <!-- <div fxHide.gt-xs>
-      <button mat-icon-button (click)="onToggleSidenav()">
-        <mat-icon>menu</mat-icon>
-      </button>
-    </div>   -->
+  <mat-toolbar class="navbar">  
 
     <a routerLink="/">
         <img class="logo" src="assets/img/logo.png" alt="logo">
     </a>
 
-    <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+    <div class="d-md-none">
+      <button mat-icon-button (click)="onToggleSidenav()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+
+    <div class="d-none d-md-block">
       <button mat-button>
         <a class="nav-item" routerLink="/home" routerLinkActive="active-link">Home</a>
       </button>
@@ -29,7 +29,7 @@
       </button>
     </div>
 
-    <div>
+    <div div class="d-none d-md-block">
       <button mat-button>
         <a class="nav-item" routerLink="/login" routerLinkActive="active-link">Log In</a>
       </button>
@@ -39,21 +39,3 @@
     </div>
 
   </mat-toolbar>
-
-
-
-<!-- MOBILE -->
-<mat-sidenav-container>
-  <mat-sidenav #sidenav role="navigation">
-
-  </mat-sidenav>
-
-  <mat-sidenav-content>
-    <main>
-      <router-outlet></router-outlet>
-    </main>
-
-
-
-  </mat-sidenav-content>
-</mat-sidenav-container>

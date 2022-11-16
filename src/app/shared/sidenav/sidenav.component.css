@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+}
+
+a:hover, a:active{
+    color: lightgray;
+}
+
+.nav-item{
+    /* display: block; */
+    display:list-item;
+    padding-left: 6px;
+}

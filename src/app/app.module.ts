@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { SidenavComponent } from './shared/sidenav/sidenav.component';
 
 import { HomeComponent } from './views/home/home.component';
 import { FeaturesComponent } from './views/features/features.component';
@@ -17,6 +18,7 @@ import { RegisterComponent } from './views/register/register.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MaterialModule } from './material/material.module';
+import { FooterComponent } from './shared/footer/footer.component';
 
 
 
@@ -24,13 +26,15 @@ import { MaterialModule } from './material/material.module';
   declarations: [
     AppComponent,
     NavbarComponent,
+    SidenavComponent,
     HomeComponent,
     FeaturesComponent,
     PricingComponent,
     BlogComponent,
     ContactComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

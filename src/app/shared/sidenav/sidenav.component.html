@@ -1,0 +1,35 @@
+<mat-nav-list>
+    <a routerLink="/">
+        <img class="logo" src="assets/img/logo.png" alt="logo">
+    </a>
+
+    <button mat-button class="nav-item">
+        <a mat-list-item routerLink="/home" (click)="onSidenavClose()">Home</a>
+      </button>
+      <button mat-button class="nav-item">
+        <a mat-list-item routerLink="/features" (click)="onSidenavClose()">Features</a>
+      </button>
+      <button mat-button class="nav-item">
+        <a mat-list-item routerLink="/pricing" (click)="onSidenavClose()">Pricing</a>
+      </button>
+      <button mat-button class="nav-item">
+        <a mat-list-item routerLink="/blog" (click)="onSidenavClose()">Blog</a>
+      </button>
+      <button mat-button class="nav-item">
+        <a mat-list-item routerLink="/contact" (click)="onSidenavClose()">Contact Us</a>
+      </button>
+      <button mat-button class="nav-item">
+        <a mat-list-item routerLink="/login" (click)="onSidenavClose()">Log In</a>
+      </button>
+      <button mat-button class="nav-item">
+        <a mat-list-item routerLink="/register" (click)="onSidenavClose()">Register</a>
+      </button>
+    
+</mat-nav-list>
+
+
+
+<!-- <mat-menu #menu="matMenu">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu> -->
