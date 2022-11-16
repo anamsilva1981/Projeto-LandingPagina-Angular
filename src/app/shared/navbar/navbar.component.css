@@ -3,11 +3,34 @@
 }
 
 .navbar{
+  display: flex;
   justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
   color: rgb(161, 156, 156);
 }
 
 
-.nav-item:hover{
-  color: blue;
+.active-link{
+  color: #5a4fdc;
+}
+
+button:hover {
+  background: transparent !important; 
+}
+
+/* SIDENAV */
+
+mat-sidenav-container, mat-sidenav-content- mat-sidenav {
+  height: 100%;
+}
+
+mat-sidenav {
+  width: 250px;
+}
+
+main {
+  padding: 10px;
 }

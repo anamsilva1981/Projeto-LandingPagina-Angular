@@ -1,26 +1,59 @@
-
-
-<ng-container>
-
+  <!-- DESKTOP -->
   <mat-toolbar class="navbar">
 
+    <!-- <div fxHide.gt-xs>
+      <button mat-icon-button (click)="onToggleSidenav()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>   -->
+
     <a routerLink="/">
-        <img class="logo" src="assets/img/logo-ibm.png" alt="logo">
+        <img class="logo" src="assets/img/logo.png" alt="logo">
     </a>
 
-    <div>
-      <button class="nav-item" mat-button routerLink="/home">Home</button>
-      <button class="nav-item" mat-button routerLink="/features">Features</button>
-      <button class="nav-item" mat-button routerLink="/pricing">Pricing</button>
-      <button class="nav-item" mat-button routerLink="/blog">Blog</button>
-      <button class="nav-item" mat-button routerLink="/contact">Contact Us</button>
+    <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
+      <button mat-button>
+        <a class="nav-item" routerLink="/home" routerLinkActive="active-link">Home</a>
+      </button>
+      <button mat-button>
+        <a class="nav-item" routerLink="/features" routerLinkActive="active-link">Features</a>
+      </button>
+      <button mat-button>
+        <a class="nav-item" routerLink="/pricing" routerLinkActive="active-link">Pricing</a>
+      </button>
+      <button mat-button>
+        <a class="nav-item" routerLink="/blog" routerLinkActive="active-link">Blog</a>
+      </button>
+      <button mat-button>
+        <a class="nav-item" routerLink="/contact" routerLinkActive="active-link">Contact Us</a>
+      </button>
     </div>
 
     <div>
-      <button class="nav-item" mat-button routerLink="/login">Log In</button>
-      <button class="nav-item" mat-button routerLink="/register">Register</button>
+      <button mat-button>
+        <a class="nav-item" routerLink="/login" routerLinkActive="active-link">Log In</a>
+      </button>
+      <button mat-button>
+        <a class="nav-item" routerLink="/register" routerLinkActive="active-link">Register</a>
+      </button>
     </div>
 
   </mat-toolbar>
 
-</ng-container>
+
+
+<!-- MOBILE -->
+<mat-sidenav-container>
+  <mat-sidenav #sidenav role="navigation">
+
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+
+
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
