@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import '~@mdi/font/css/materialdesignicons.css';
+
 
 /* TODA A ESTRUTURA */
 *{
@@ -17,44 +19,11 @@
     padding-bottom: 20px;
 }
 
-/* .altura{
-    height: 200px;
-} */
 
-
-
-
-/* ICONES MIDIA SOCIAL */ 
-.mdi { 
-    /* color: aliceblue; */
-    /* font-size: 24px; */
-    /* /* margin: 10px; */
-}
 
 .example-spacer {
     flex: 1 1 auto;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -90,7 +59,6 @@ mat-list{
 }
 
 
-
 .first-toolbar{
     height: auto;
     padding: 50px 70px;
@@ -103,7 +71,6 @@ mat-list{
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     color: #898989;
-    /* margin: 600px; */
     
 }
 
