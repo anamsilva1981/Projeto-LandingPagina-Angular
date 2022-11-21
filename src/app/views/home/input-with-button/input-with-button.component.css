@@ -1,0 +1,29 @@
+.home-form-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+mat-form-field {
+  font-size: 12px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+button.mat-raised-button {
+  font-size: 14px;
+  height: 42px;
+  margin-bottom: 16px;
+  min-width: 100px;
+  max-width: 100px;
+  width: 100%;
+  background-color: #5a4fdc;
+  color: #fff;
+}

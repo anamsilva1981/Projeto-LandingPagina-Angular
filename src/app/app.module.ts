@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 
+import { ReactiveFormsModule } from '@angular/forms';
+
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -19,6 +21,8 @@ import { RegisterComponent } from './views/register/register.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MaterialModule } from './material/material.module';
 import { FooterComponent } from './shared/footer/footer.component';
+import { InputWithButtonComponent } from './views/home/input-with-button/input-with-button.component';
+import { HomeCardComponent } from './views/home/home-card/home-card.component';
 
 
 
@@ -34,7 +38,9 @@ import { FooterComponent } from './shared/footer/footer.component';
     ContactComponent,
     LoginComponent,
     RegisterComponent,
-    FooterComponent
+    FooterComponent,
+    InputWithButtonComponent,
+    HomeCardComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,6 +48,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     BrowserAnimationsModule,
     MaterialModule,
     NgbModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

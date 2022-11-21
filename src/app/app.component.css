@@ -11,4 +11,10 @@ mat-sidenav-container, mat-sidenav-content- mat-sidenav {
   main {
     padding: 10px;
   }
+
+  .mat-drawer-content {
+    display: inline !important; overflow: hidden !important;
+  }
+
+  
   

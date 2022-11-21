@@ -1,0 +1,67 @@
+mat-card {
+    display: inline-block;
+    background-color: #fff;
+    text-align: center!important;
+    transition: all 0.8s;
+}
+
+mat-icon {
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: rgba(90,79,220,0.12);
+}
+
+.mdi {
+    color: #5a4fdc;
+    align-items: center;
+}
+
+.card-content {
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+.fs-20 {
+    font-size: 20px;
+    color: #3b3950;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.fc-grey {
+    color: #9e9cb9 !important;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+mat-card:hover {
+    background-color: #5a4fdc;
+    transform: translateY(-6px);
+}
+
+mat-card:hover mat-icon {
+    background: rgba(255,255,255,0.12) !important;
+    box-shadow: 0 0 0 7px rgb(255 255 255 / 4%);
+}
+
+mat-card:hover .mdi {
+    color: #fff;
+}
+
+mat-icon mat-card-avatar:hover {
+    background: rgba(255,255,255,0.12) !important;
+    color: #fff !important;
+    box-shadow: 0 0 0 7px rgb(255 255 255 / 4%);
+}
+
+mat-card:hover .fs-20 {
+    color: #fff;
+}
