@@ -13,19 +13,21 @@
 
  <div class="container-fluid">
     <router-outlet></router-outlet>
-</div> --> 
+</div> -->
 
 
 
-    <mat-sidenav-container>
-      <mat-sidenav #sidenav role="navigation">
-        <app-sidenav (sidenavClose)="sidenav.close()"></app-sidenav>
-      </mat-sidenav>
-      <mat-sidenav-content>
-        <app-navbar (sidenavToggle)="sidenav.toggle()"></app-navbar>
-        <main>
-          <router-outlet></router-outlet>
-        </main>
-      </mat-sidenav-content>
-    </mat-sidenav-container>
-  
+<mat-sidenav-container>
+  <mat-sidenav #sidenav role="navigation">
+    <app-sidenav (sidenavClose)="sidenav.close()"></app-sidenav>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-navbar (sidenavToggle)="sidenav.toggle()"></app-navbar>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<!--  Rodapé -->
+<app-footer></app-footer>
