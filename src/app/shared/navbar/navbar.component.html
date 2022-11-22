@@ -1,41 +1,27 @@
   <!-- DESKTOP -->
   <mat-toolbar class="navbar">  
 
-    <a routerLink="/">
-        <img class="logo" src="assets/img/logo.png" alt="logo">
-    </a>
-
     <div class="d-md-none">
       <button mat-icon-button (click)="onToggleSidenav()">
         <mat-icon>menu</mat-icon>
       </button>
     </div>
 
+    <a routerLink="/">
+      <img class="logo" src="assets/img/logo.png" alt="logo">
+    </a>
+
     <div class="d-none d-md-block">
-      <button mat-button>
-        <a class="nav-item" routerLink="/home" routerLinkActive="active-link">Home</a>
-      </button>
-      <button mat-button>
-        <a class="nav-item" routerLink="/features" routerLinkActive="active-link">Features</a>
-      </button>
-      <button mat-button>
-        <a class="nav-item" routerLink="/pricing" routerLinkActive="active-link">Pricing</a>
-      </button>
-      <button mat-button>
-        <a class="nav-item" routerLink="/blog" routerLinkActive="active-link">Blog</a>
-      </button>
-      <button mat-button>
-        <a class="nav-item" routerLink="/contact" routerLinkActive="active-link">Contact Us</a>
-      </button>
+      <a class="nav-item" routerLink="/home" routerLinkActive="active-link">Home</a>
+      <a class="nav-item" routerLink="/features" routerLinkActive="active-link">Features</a>
+      <a class="nav-item" routerLink="/pricing" routerLinkActive="active-link">Pricing</a>
+      <a class="nav-item" routerLink="/blog" routerLinkActive="active-link">Blog</a>
+      <a class="nav-item" routerLink="/contact" routerLinkActive="active-link">Contact Us</a>
     </div>
 
     <div div class="d-none d-md-block">
-      <button mat-button>
-        <a class="nav-item" routerLink="/login" routerLinkActive="active-link">Log In</a>
-      </button>
-      <button mat-button>
-        <a class="nav-item" routerLink="/register" routerLinkActive="active-link">Register</a>
-      </button>
+      <a class="nav-item" routerLink="/login" routerLinkActive="active-link">Log In</a>
+      <a class="nav-item" routerLink="/register" routerLinkActive="active-link">Register</a>
     </div>
 
   </mat-toolbar>

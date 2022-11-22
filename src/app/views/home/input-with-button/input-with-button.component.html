@@ -1,0 +1,12 @@
+<div class="home-form-wrapper">
+    <form class="home-form">
+        <mat-form-field appearance="outline">
+            <input type="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
+                placeholder="Enter email...">
+            <mat-error *ngIf="emailFormControl.hasError('email')">
+                Please enter a valid email address
+            </mat-error>
+        </mat-form-field>
+    </form>
+    <button mat-raised-button>Subscribe</button>
+</div>
