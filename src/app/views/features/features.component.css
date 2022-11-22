@@ -1,0 +1,75 @@
+.example-card {
+    max-width: 400px;
+}
+
+mat-card {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.text-primary {
+    color: #5a4fdc !important;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fc-grey {
+    color: #9e9cb9 !important;
+}
+
+.lh-1_8 {
+    line-height: 1.8;
+}
+
+.lh-1_4 {
+    line-height: 1.4;
+}
+
+.ls {
+    letter-spacing: 0.5;
+}
+
+
+.fw-semibold {
+    font-weight: 400 !important;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.btn-dark-purple {
+    font-size: 15px;
+    vertical-align: center;
+    background-color: #5a4fdc;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.5s;
+    padding: 7px 30px;
+}
+
+.btn-light-purple {
+    font-size: 15px;
+    background-color: #5a4fdc2e;
+    color: #5a4fdc;
+    font-weight: 700;
+    transition: all 0.5s;
+    padding: 7px 30px;
+}
+
+.home-main-img {
+    position: relative; 
+    max-width: 100%;
+    height: auto; 
+    align-self: center;
+}
