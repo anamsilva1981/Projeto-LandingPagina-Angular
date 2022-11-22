@@ -1,18 +1,42 @@
-.example-card {
-    max-width: 400px;
+.container {
+    padding: 80px 0px;
 }
+
+.features-first-bg-img {
+    position: absolute; 
+    width: 100%; 
+    transform: translateX(-35px) translateY(90px) scale(1.8) rotate(0);
+    background-color: #fbfafd !important;
+}
+
+.features-second-bg-img {
+    position: absolute; 
+    width: 100%; 
+    transform: translateX(-35px) translateY(90px) scale(1.8) rotate(0);
+    background-color: #fff !important;
+}
+.features-title {
+    text-shadow: 1px 2px 3px rgb(59 57 80 / 20%);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.features-main-img {
+    position: relative; 
+    max-width: 100%;
+    height: auto; 
+    align-self: center;
+}
+
+/* SECTION DO "CARD" DA FEATURES */
 
 mat-card {
     background: transparent !important;
     box-shadow: none !important;
 }
 
-.text-primary {
-    color: #5a4fdc !important;
-}
-
-.fw-medium {
-    font-weight: 500;
+.fw-400 {
+    font-weight: 400 !important;
 }
 
 .fs-15 {
@@ -23,53 +47,49 @@ mat-card {
     font-size: 16px;
 }
 
-.fc-grey {
-    color: #9e9cb9 !important;
-}
-
-.lh-1_8 {
-    line-height: 1.8;
-}
-
-.lh-1_4 {
-    line-height: 1.4;
-}
-
-.ls {
-    letter-spacing: 0.5;
-}
-
-
-.fw-semibold {
-    font-weight: 400 !important;
+.fs-24 {
+    font-size: 32px;
 }
 
 .fs-28 {
     font-size: 28px;
 }
 
-.btn-dark-purple {
+.fc-grey {
+    color: #9e9cb9 !important;
+}
+
+.lh-1_4 {
+    line-height: 1.4;
+}
+
+.lh-1_8 {
+    line-height: 1.8;
+}
+
+.ls {
+    letter-spacing: 0.5;
+}
+
+.text-primary {
+    color: #5a4fdc !important;
+}
+
+.btn {
     font-size: 15px;
-    vertical-align: center;
-    background-color: #5a4fdc;
-    color: #fff;
     font-weight: 700;
     transition: all 0.5s;
     padding: 7px 30px;
+}
+
+.btn-dark-purple {
+    background-color: #5a4fdc;
+    color: #fff;
 }
 
 .btn-light-purple {
-    font-size: 15px;
     background-color: #5a4fdc2e;
     color: #5a4fdc;
-    font-weight: 700;
-    transition: all 0.5s;
-    padding: 7px 30px;
 }
 
-.home-main-img {
-    position: relative; 
-    max-width: 100%;
-    height: auto; 
-    align-self: center;
-}
+
