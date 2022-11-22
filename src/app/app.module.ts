@@ -34,7 +34,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     ContactComponent,
     LoginComponent,
     RegisterComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
