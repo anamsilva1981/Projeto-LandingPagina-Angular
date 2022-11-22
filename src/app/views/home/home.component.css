@@ -1,14 +1,10 @@
 
 /* PRIMEIRA SECTION DA HOME */
 
-.container {
-    padding: 110px;
-}
-
 .home-bg-img {
     position: absolute; 
     width: 100%; 
-    transform: translateX(-210px) translateY(-150px);
+    transform: translateX(-100px) translateY(-105px);
 }
 
 .home-title {
