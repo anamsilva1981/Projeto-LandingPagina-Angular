@@ -1,0 +1,41 @@
+/* 
+
+.example-card {
+  max-width: 350px;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.text-dark{
+  font-size: 20px;
+}
+
+/* .card-center{
+  display: flex;
+  -ms-flex-align: start;
+  padding: 10px 50px 10px 50px ;
+} */
+
+/* .title-center{
+  text-align: center;
+  padding-top: 26px;
+  padding-bottom: 20px;
+  
+} */
+
+.blog-title {
+  font-size: 28px;
+  text-shadow: 1px 2px 3px rgb(59 57 80 / 20%);
+  font-family: "Muli",sans-serif;
+  font-weight: 600;
+} */
+
+.blog-subtitle{
+  font-size: 15px;
+  color: #9e9cb9;
+  letter-spacing: 2.5;
+  line-height: 1.8;
+}
+
