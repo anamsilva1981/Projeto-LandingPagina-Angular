@@ -23,6 +23,7 @@ import { MaterialModule } from './material/material.module';
 import { FooterComponent } from './shared/footer/footer.component';
 import { InputWithButtonComponent } from './views/home/input-with-button/input-with-button.component';
 import { HomeCardComponent } from './views/home/home-card/home-card.component';
+import { BlogCardComponent } from './views/blog/blog-card/blog-card.component';
 
 
 
@@ -41,6 +42,7 @@ import { HomeCardComponent } from './views/home/home-card/home-card.component';
     FooterComponent,
     InputWithButtonComponent,
     HomeCardComponent,
+    BlogCardComponent,
   ],
   imports: [
     BrowserModule,
