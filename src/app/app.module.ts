@@ -24,6 +24,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { InputWithButtonComponent } from './views/home/input-with-button/input-with-button.component';
 import { HomeCardComponent } from './views/home/home-card/home-card.component';
 import { BlogCardComponent } from './views/blog/blog-card/blog-card.component';
+import { ButtonComponent } from './shared/button/button.component';
 
 
 
@@ -43,6 +44,7 @@ import { BlogCardComponent } from './views/blog/blog-card/blog-card.component';
     InputWithButtonComponent,
     HomeCardComponent,
     BlogCardComponent,
+    ButtonComponent,
   ],
   imports: [
     BrowserModule,

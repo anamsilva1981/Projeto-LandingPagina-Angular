@@ -1,0 +1,35 @@
+.contact-title {
+    font-size: 28px;
+    text-shadow: 1px 2px 3px rgb(59 57 80 / 20%);
+    font-family: "Muli",sans-serif;
+    font-weight: 600;
+  }
+  
+  .contact-subtitle{
+    font-size: 15px;
+    color: #9e9cb9;
+    letter-spacing: 2.5;
+    line-height: 1.8;
+  }
+  
+  .example-form {
+    /* min-width: 150px; */
+    /* max-width: 500px; */
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  td {
+    padding-right: 8px;
+  }
+
+  .text-muted {
+    color: #9e9cb9 !important;
+}
+
+.container{
+  padding: 80px 20px ;
+}
