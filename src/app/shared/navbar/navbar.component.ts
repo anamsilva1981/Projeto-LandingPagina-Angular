@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, HostListener, OnInit, Output } from '@angular/core';
 
 
 @Component({
@@ -8,6 +8,8 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   @Output() public sidenavToggle = new EventEmitter();
+  
+
 
   constructor() { }
 
@@ -18,4 +20,16 @@ export class NavbarComponent implements OnInit {
   public onToggleSidenav = () => {
     this.sidenavToggle.emit();
   }
+
+  header_variable = false;
+  @HostListener("document:scroll")
+  scrollfunction() {
+    if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+      this.header_variable = true;
+    } else {
+      this.header_variable = false;
+    }
+  }
+  
 }
+

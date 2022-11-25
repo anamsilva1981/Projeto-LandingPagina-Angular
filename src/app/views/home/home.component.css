@@ -1,5 +1,8 @@
 
 /* PRIMEIRA SECTION DA HOME */
+.container {
+    padding-top: 110px;
+}
 
 .home-bg-img {
     position: absolute; 
