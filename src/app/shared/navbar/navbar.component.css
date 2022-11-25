@@ -2,15 +2,17 @@
   width: 80px;
 }
 
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-around;
-  background-color: #fff;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0; /* required */
-  z-index: 999;
+  background-color: transparent;
+  transition: all 1.0s;
+}
 
+.header_change {
+  position: fixed;
+  background-color: #fff;
+  z-index: 999;
 }
 
 a {
