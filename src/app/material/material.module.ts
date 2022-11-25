@@ -11,6 +11,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatDialogModule } from '@angular/material/dialog';
 
 
 
@@ -25,7 +26,9 @@ const materialModules = [
   MatListModule,
   MatInputModule,
   MatFormFieldModule,
-  MatGridListModule
+  MatGridListModule,
+  MatDialogModule
+   
 ]
 
 @NgModule({
