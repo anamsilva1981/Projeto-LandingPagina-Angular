@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, HostListener, OnInit, Output } from '@angular/core';
 import {MatDialog} from '@angular/material/dialog';
 import { LoginComponent } from 'src/app/views/login/login.component';
 
@@ -11,6 +11,8 @@ import { LoginComponent } from 'src/app/views/login/login.component';
 })
 export class NavbarComponent implements OnInit {
   @Output() public sidenavToggle = new EventEmitter();
+  
+
 
   constructor(public dialog: MatDialog) {}
 
@@ -29,4 +31,16 @@ export class NavbarComponent implements OnInit {
   openDialog() {
     this.dialog.open(LoginComponent);
   }
+
+  header_variable = false;
+  @HostListener("document:scroll")
+  scrollfunction() {
+    if(document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+      this.header_variable = true;
+    } else {
+      this.header_variable = false;
+    }
+  }
+  
 }
+
