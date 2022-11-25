@@ -1,4 +1,7 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import {MatDialog} from '@angular/material/dialog';
+import { LoginComponent } from 'src/app/views/login/login.component';
+
 
 
 @Component({
@@ -9,7 +12,9 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 export class NavbarComponent implements OnInit {
   @Output() public sidenavToggle = new EventEmitter();
 
-  constructor() { }
+  constructor(public dialog: MatDialog) {}
+
+
 
   ngOnInit(): void {
 
@@ -17,5 +22,11 @@ export class NavbarComponent implements OnInit {
   
   public onToggleSidenav = () => {
     this.sidenavToggle.emit();
+
+  }
+
+
+  openDialog() {
+    this.dialog.open(LoginComponent);
   }
 }
