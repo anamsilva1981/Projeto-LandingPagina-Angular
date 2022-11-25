@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import '~@mdi/font/css/materialdesignicons.css';
+
+
+/* TODA A ESTRUTURA */
+*{
+    background-color: #292838;
+
+}
+
+/* DIV LOGO + MIDIA + SOBRE */
+.mb-5{
+    padding-left: 110px;
+}
+
+/* LOGOTIPO */
+.logo-img{
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+
+
+/* DIV TODAS COLUNAS  */
+.row{
+    /* line-height: 1.8px; */
+    padding: 40px 30px 20px 20px ;
+    margin-top: 50px;
+    margin-inline: 30px;
+    /* margin: 40px; */
+}
+
+
+/* TITULOS COLUNAS */
+.title2 { 
+    color: white !important;
+    font-size: 16px;
+} 
+
+
+/* LISTAS COLUNAS */
+mat-list-item{
+    color: rgba(255,255,255,0.6) !important;
+    margin: 0;
+    padding: 0px; 
+    
+} 
+
+
+mat-list{
+    padding: 0px 60px ;
+       
+}
+
+
+.first-toolbar{
+    height: auto;
+    padding: 50px 70px;
+    align-items: baseline;
+}
+
+
+/*  BARRA FINAL DA PÁGINA */
+.second-toolbar{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #898989;
+    
+}
+
