@@ -25,6 +25,8 @@ import { InputWithButtonComponent } from './views/home/input-with-button/input-w
 import { HomeCardComponent } from './views/home/home-card/home-card.component';
 import { BlogCardComponent } from './views/blog/blog-card/blog-card.component';
 import { ButtonComponent } from './shared/button/button.component';
+import { PrincingCardComponent } from './views/pricing/princing-card/princing-card.component';
+import { PrincingButtonComponent } from './views/pricing/princing-button/princing-button.component';
 
 
 
@@ -45,6 +47,8 @@ import { ButtonComponent } from './shared/button/button.component';
     HomeCardComponent,
     BlogCardComponent,
     ButtonComponent,
+    PrincingCardComponent,
+    PrincingButtonComponent,
   ],
   imports: [
     BrowserModule,
