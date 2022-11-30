@@ -12,7 +12,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDialogModule } from '@angular/material/dialog';
-
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 
 
@@ -27,7 +27,8 @@ const materialModules = [
   MatInputModule,
   MatFormFieldModule,
   MatGridListModule,
-  MatDialogModule
+  MatDialogModule,
+  MatCheckboxModule
    
 ]
 

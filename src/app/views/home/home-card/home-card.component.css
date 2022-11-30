@@ -25,21 +25,12 @@ mat-icon {
     letter-spacing: 1px;
 }
 
-.fs-20 {
-    font-size: 20px;
-    color: #3b3950;
+mat-card:hover .card-title {
+    color: var(--white);
 }
 
 .fw-bold {
     font-weight: 700;
-}
-
-.fc-grey {
-    color: #9e9cb9 !important;
-}
-
-.fs-15 {
-    font-size: 15px;
 }
 
 mat-card:hover {
