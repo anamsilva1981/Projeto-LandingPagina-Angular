@@ -1,6 +1,7 @@
 import { Component, EventEmitter, HostListener, OnInit, Output } from '@angular/core';
 import {MatDialog} from '@angular/material/dialog';
 import { LoginComponent } from 'src/app/views/login/login.component';
+import { RegisterComponent } from 'src/app/views/register/register.component';
 
 
 
@@ -28,8 +29,12 @@ export class NavbarComponent implements OnInit {
   }
 
 
-  openDialog() {
+  openLogin() {
     this.dialog.open(LoginComponent);
+  }
+
+  openRegister() {
+    this.dialog.open(RegisterComponent);
   }
 
   header_variable = false;

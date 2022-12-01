@@ -1,0 +1,9 @@
+#pricing {
+    margin-top: 80px;
+    padding-top: 90px;
+}
+
+.pricing-title {
+    text-shadow: 1px 2px 3px rgb(59 57 80 / 20%);
+    font-weight: 700;
+}

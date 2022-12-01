@@ -1,50 +1,41 @@
+#id {
+    padding: 0px;
+}
 
 /* PRIMEIRA SECTION DA HOME */
-.container {
-    padding-top: 110px;
+
+.home-second-container {
+    margin-bottom: 160px;
 }
 
-.home-bg-img {
+.home-first-bg-img {
     position: absolute; 
+    top: 0;
+    left: 0;
     width: 100%; 
-    transform: translateX(-100px) translateY(-105px);
+    height: 900px;
+    background: rgba(90,79,220,0.025);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+
 
 .home-title {
-    font-size: 52px; 
-    position: relative; 
-    font-weight: 500; 
+    font-weight: 600; 
     text-shadow: 3px 3px 6px rgb(14 10 65 / 25%); 
-    color: #3b3950 !important; 
     line-height: 1.2; 
     letter-spacing: 1px;
 }
 
 .home-subtitle {
     line-height: 1.8;
-    letter-spacing: 1px;
-}
-
-.fs-17 {
-    font-size: 17px;
-}
-
-.fc-grey {
-    color: #9e9cb9 !important;
 }
 
 .home-second-subtitle {
     line-height: 1.8; 
-    font-size: 16px; 
-    font-family: Quicksand, sans-serif; 
-    color: #3B3950; 
-    margin: 0px 0px 16px; 
-    font-weight: 500; 
-    letter-spacing: 1px;
-}
-
-.fs-20 {
-    font-size: 20px;
+    font-weight: 500;
 }
 
 .home-main-img {
@@ -55,3 +46,74 @@
 }
 
 /* SEGUNDA SECTION DA HOME */
+
+.home-main-card {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.home-card-lg {
+    height: 60px;
+    width: 60px;
+    
+}
+
+.mdi-cube {
+    font-size: 40px;
+}
+
+.btn {
+    font-size: 15px;
+    height: 50px;
+    margin-bottom: 16px;
+    min-width: 100px;
+    max-width: 150px; 
+    width: 100%;
+    color: var(--primary);
+    background-color: var(--white);
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    transform: translateY(-2px);
+
+  }
+
+@media (min-width: 576px) {
+    .home-first-bg-img {
+        height: 1200px;
+    }
+
+    .home-second-container {
+        margin-top: 80px;
+        margin-bottom: 160px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .home-first-bg-img {
+        height: 1400px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .home-first-bg-img {
+        height: 650px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .home-first-bg-img {
+        height: 900px;
+    }
+
+    .home-second-container {
+        margin-top: 80px;
+    }
+
+}

@@ -3,18 +3,50 @@
     text-shadow: 1px 2px 3px rgb(59 57 80 / 20%);
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
     font-family: sans-serif;
     font-weight: 700;
 }
 
 .font-size-15 {
     font-size: 15px;
-}
+} */
 
 body {
     font-family: "Quicksand",sans-serif;
     color: #3b3950;
     background: #fff;
     font-weight: 500;
+}
+
+.pricing-icon-bg {
+    background: rgba(90,79,220,0.12);
+    color: #5a4fdc;
+    display: block;
+    height: 80px;
+    width: 80px;
+    line-height: 100px;
+    margin: 0 auto;
+    border-radius: 20% 20% 4% 20% / 20% 20% 4% 20%;
+    box-shadow: 0 0 0 7px rgb(90 79 220 / 3%);
+    transition: all 0.5s;
+}
+
+.card-content {
+    padding: 10px 0px;
+}
+
+.price {
+    font-size: 40px;
+}
+
+.card-bottom-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.hover-test {
+    background-color: aqua;
 }

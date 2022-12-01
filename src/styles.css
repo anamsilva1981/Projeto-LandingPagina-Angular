@@ -2,12 +2,113 @@
 @import '~@mdi/font/css/materialdesignicons.css';
 
 html, body {
-  height: 100%;
-  margin: 0;
+  width: 100%;
 }
 
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
+
+.mat-drawer-container {
+  background-color: transparent;
+}
+
+/* SASS VARIABLES */
+
+:root {
+  /* Color Styles */
+  --white: #FFFFFF;
+  --black: #3b3950;
+  --primary: #5a4fdc;
+  --secondary: rgba(90,79,220,0.12);
+  --tertiary: #9e9cb9;
+
+  /* Text Size Styles */
+  --title--small: 20px;
+  --title--medium: 28px;
+  --title--large: 52px;
+  --body--small: 15px;
+  --body--medium: 16px;
+  --body--large: 17px;
+
+  /* Font Families */
+  --font-quicksand: "Quicksand", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+
+/* FONT-SIZE STYLES */
+
+.font-size-title-lg {
+  font-size: var(--title--large) !important;
+}
+
+.font-size-title-md {
+  font-size: var(--title--medium) !important;
+}
+
+.font-size-title-sm {
+  font-size: var(--title--small) !important;
+}
+
+.font-size-body-lg {
+  font-size: var(--body--large) !important;
+}
+
+.font-size-body-md {
+  font-size: var(--body--medium) !important;
+}
+
+.font-size-body-sm {
+  font-size: var(--body--small) !important;
+}
+
+/* FONT-COLOR STYLES */
+
+.font-color-white {
+  color: var(--white) !important;
+}
+
+.font-color-black {
+  color: var(--black) !important;
+}
+
+.font-color-primary {
+  color: var(--primary) !important;
+}
+
+.font-color-tertiary {
+  color: var(--tertiary)!important;
+}
+
+/* BACKGROUND-COLOR STYLES */
+
+.bg-white {
+  background-color: var(--white)!important; 
+}
+
+.bg-black {
+  background-color: var(--black)!important; 
+}
+
+.bg-primary {
+  background-color: var(--primary)!important; 
+}
+
+.bg-secondary {
+  background-color: var(--secondary)!important; 
+}
+
+/* FONT FAMILIES */
+.quicksand {
+  font-family: var(--font-quicksand)!important;
+}
+
+.montserrat {
+  font-family: var(--font-montserrat)!important;
+}
+
+
 

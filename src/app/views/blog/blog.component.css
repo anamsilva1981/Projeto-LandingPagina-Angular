@@ -24,6 +24,12 @@
   padding-bottom: 20px;
   
 } */
+.section {
+  padding-top: 80px;
+  padding-bottom: 120px;
+  position: relative;
+  background-color: #fff;
+}
 
 .blog-title {
   font-size: 28px;
@@ -39,3 +45,7 @@
   line-height: 1.8;
 }
 
+#blog{
+  margin-top: 100px;
+  padding-top: 80px;
+}

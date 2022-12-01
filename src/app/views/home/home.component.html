@@ -1,62 +1,69 @@
-<div class="container">
+<section id="home">
+    <!-- PRIMEIRA PARTE DA HOME -->
+    <div class="container p-5">
 
-    <img class="home-bg-img" src="../../../assets/img/hero-1-bg-img.png"
-        alt="plano de fundo branco com circulos coloridos e estrelas espalhados aleatoriamente">
+        <img class="home-first-bg-img" src="../../../assets/img/hero-1-bg-img.png"
+            alt="plano de fundo branco com circulos coloridos e estrelas espalhados aleatoriamente">
 
-    <div class="row align-items-center justify-content-center">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <h1 class="mb-4 home-title">
-                Creative Landing Page
-            </h1>
-            <div class="w-75 mb-5 mb-lg-0">
-                <p class="mb-5 pb-5 home-subtitle fs-17 fc-grey">A creative
-                    &amp; modern landing page with Lezir
-                    template &amp; We love make things amazing.</p>
-                <p class="home-second-subtitle">
-                    <span class="fs-20 me-2">🥳️</span>Nemo enim ipsam voluptatem quia voluptas
-                    sit aspernatur that is fugit.
-                </p>
-                <app-input-with-button></app-input-with-button>
+        <div class="row align-items-center justify-content-center position-relative">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h1 class="mb-4 font-size-title-lg font-color-black home-title montserrat">
+                    Creative Landing Page
+                </h1>
+                <div class="w-75 mb-5 mb-lg-0">
+                    <p class="mb-5 pb-5 home-subtitle font-size-body-lg quicksand font-color-tertiary">A creative
+                        &amp; modern landing page with Lezir
+                        template &amp; We love make things amazing.</p>
+                    <p class="home-second-subtitle font-size-body-lg quicksand font-color-tertiary">
+                        <span class="font-size-title-sm me-2">🥳️</span>Nemo enim ipsam voluptatem quia voluptas
+                        sit aspernatur that is fugit.
+                    </p>
+                    <app-input-with-button></app-input-with-button>
+                </div>
             </div>
-        </div>
 
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <img class="d-block mx-auto home-main-img" src="../../../assets/img/hero-1-img.png"
-                alt="Desenho de uma mulher sorrindo sentada em uma cadeira em frente a uma mesa com computador">
-        </div>
-    </div>
-</div>
-
-<div class="container text-center">
-    <div class="row justify-content-around">
-        <div class="col-lg-4 col-md-12">
-            <mat-card>
-                <mat-icon mat-card-avatar>
-                    <i class="mdi mdi-cube"></i>
-                </mat-icon>
-                <mat-card-title class="card-content fs-20 fw-bold mt-4 mb-2"></mat-card-title>
-                <mat-card-subtitle class="card-content fs-15 fc-grey mb-0"></mat-card-subtitle>
-            </mat-card>
-        </div>
-        <div class="col-lg-8 col-md-12">
-            <div class="row justify-content-end">
-                <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
-                    <app-home-card icon="mdi mdi-collage" title="Easy To Use"
-                        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
-                    </app-home-card>
-                    <app-home-card icon="mdi mdi-trending-up" title="Grow Your Revenue"
-                        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
-                    </app-home-card>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <app-home-card icon="mdi mdi-security" title="Analytics Security"
-                        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
-                    </app-home-card>
-                    <app-home-card icon="mdi mdi-database-lock" title="Data Privacy"
-                        subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
-                    </app-home-card>
-                </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img class="d-block mx-auto home-main-img" src="../../../assets/img/hero-1-img.png"
+                    alt="Desenho de uma mulher sorrindo sentada em uma cadeira em frente a uma mesa com computador">
             </div>
         </div>
     </div>
-</div>
+
+    <div class="container text-center home-second-container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-12 mt-5">
+                <mat-card class="home-main-card text-start">
+                        <mat-icon mat-card-avatar class="home-card-lg text-center bg-secondary rounded">
+                            <i class="mdi mdi-cube font-color-primary align-middle text-center"></i>
+                        </mat-icon>
+                        <mat-card-title class="font-size-title-md font-color-black my-4">Why Choose Us ?</mat-card-title>
+                        <mat-card-subtitle class="home-second-subtitle font-size-body-md font-color-tertiary mb-4 quicksand">Nam libero tempore cum soluta as nobis est eligendi optio cumque nihile impedite quo minus id quod maxime.</mat-card-subtitle>
+                    
+                    
+                        <button mat-raised-button class="btn">Learn More</button>
+                    
+                </mat-card>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="row justify-content-end">
+                    <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
+                        <app-home-card icon="mdi mdi-collage" title="Easy To Use"
+                            subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
+                        </app-home-card>
+                        <app-home-card icon="mdi mdi-trending-up" title="Grow Your Revenue"
+                            subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
+                        </app-home-card>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <app-home-card icon="mdi mdi-security" title="Analytics Security"
+                            subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
+                        </app-home-card>
+                        <app-home-card icon="mdi mdi-database-lock" title="Data Privacy"
+                            subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem.">
+                        </app-home-card>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

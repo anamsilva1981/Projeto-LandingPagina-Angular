@@ -1,0 +1,62 @@
+.modal-title {
+    text-shadow: 1px 2px 3px rgb(59 57 80 / 20%);
+}
+
+.modal-subtitle {
+    font-size: 24px;
+}
+
+.login-border {
+    border: 1px solid #edeff1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 16px;
+}
+
+.social-login {
+    position: relative;
+    background: #fff;
+    padding: 0 12px;
+    display: inline-block;
+    line-height: 1.8;
+    justify-content: space-around;
+}
+
+.login-social-icon {
+    height: 45px;
+    width: 45px;
+    color: #fff;
+    line-height: 45px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    padding: 15px;
+    text-align: center;
+    margin: 0px 10px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon-primary {
+    background-color: #5a4fdc;
+}
+
+.icon-info {
+    background-color: #4fccdc;
+}
+
+.icon-danger {
+    background-color: #f43958;
+}
+
+.icon-success {
+    background-color: #14cf9f;
+}
+
+
+
+
+
