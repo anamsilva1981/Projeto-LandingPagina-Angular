@@ -33,12 +33,6 @@ body {
   --body--medium: 16px;
   --body--large: 17px;
 
-  /* Opacity Options */
-  --opacity--primary: 1;
-  --opacity--secondary: 1;
-  --opacity--tertiary: 1;
-  --opacity--quaternary: 1;
-
   /* Font Families */
   --font-quicksand: "Quicksand", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;
@@ -105,23 +99,6 @@ body {
 
 .bg-secondary {
   background-color: var(--secondary)!important; 
-}
-
-/* OPACITY OPTIONS */
-.opacity-primary {
-  opacity: var(--opacity--primary)!important;
-}
-
-.opacity-secondary {
-  opacity: var(--opacity--secondary)!important;
-}
-
-.opacity-tertiary {
-  opacity: var(--opacity--tertiary)!important;
-}
-
-.opacity-quaternary {
-  opacity: var(--opacity--quaternary)!important;
 }
 
 /* FONT FAMILIES */

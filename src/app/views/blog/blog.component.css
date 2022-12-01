@@ -26,7 +26,7 @@
 } */
 .section {
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
   position: relative;
   background-color: #fff;
 }
@@ -45,3 +45,7 @@
   line-height: 1.8;
 }
 
+#blog{
+  margin-top: 100px;
+  padding-top: 80px;
+}
